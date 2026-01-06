@@ -18,7 +18,9 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
     "paths": {
+      "@/*": ["./*"],
       "cmssy-cli/config": [
         "./node_modules/cmssy-cli/config"
       ]
@@ -26,7 +28,9 @@
   },
   "include": [
     "blocks/**/*",
-    "templates/**/*"
+    "templates/**/*",
+    "components/**/*",
+    "lib/**/*"
   ],
   "exclude": [
     "node_modules",
