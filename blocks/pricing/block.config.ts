@@ -81,7 +81,7 @@ export default defineBlock({
           defaultValue: "Get Started",
         },
         href: {
-          type: "singleLine",
+          type: "link",
           label: "Link",
           required: true,
           defaultValue: "#",
